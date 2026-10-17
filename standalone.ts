@@ -81,6 +81,12 @@ const GAME_PAGES: Record<string, string> = {
   "parole-in-fuga": "giochi/parole-in-fuga.html",
   "sintonia": "giochi/sintonia.html",
 };
+const GUIDE_PAGES: Record<string, string> = {
+  "guida-serata-giochi": "guide/guida-serata-giochi.html",
+  "idee-festa-amici": "guide/idee-festa-amici.html",
+  "giochi-senza-tabellone": "guide/giochi-senza-tabellone.html",
+  "party-game-team-building": "guide/party-game-team-building.html",
+};
 async function serveSeoFile(fileName: string, contentType: string): Promise<Response> {
   const file = Bun.file(join(resolve(SEO_DIR), fileName));
   if (!(await file.exists())) return new Response("Not found", { status: 404 });
@@ -186,6 +192,11 @@ Bun.serve({
       const gameMatch = /^\/giochi\/([a-z-]+)\/?$/.exec(url.pathname);
       if (gameMatch) {
         const page = GAME_PAGES[gameMatch[1]];
+        if (page) return serveSeoFile(page, "text/html; charset=utf-8");
+      }
+      const guideMatch = /^\/guide\/([a-z-]+)\/?$/.exec(url.pathname);
+      if (guideMatch) {
+        const page = GUIDE_PAGES[guideMatch[1]];
         if (page) return serveSeoFile(page, "text/html; charset=utf-8");
       }
     }
