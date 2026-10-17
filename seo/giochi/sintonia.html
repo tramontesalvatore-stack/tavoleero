@@ -4,20 +4,22 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Sintonia – Gioco di società: indovina la parola mancante | Tavoleero</title>
-  <meta name="description" content="Sintonia: completa la frase in segreto e trova le risposte uguali agli altri. Stessa parola, stessa testa: da 2 giocatori in su, gratis nel browser con Tavoleero." />
+  <meta name="description" content="Sintonia: il gioco di società dove vince chi è più in sintonia con gli altri. Regole complete, i 12 mazzi tematici, punteggio 3/1/0, consigli e FAQ. Da 2 a 8 giocatori, gratis nel browser con Tavoleero." />
   <link rel="canonical" href="https://tavoleero.onrender.com/giochi/sintonia" />
   <meta property="og:title" content="Sintonia – Stessa parola. Stessa testa." />
-  <meta property="og:description" content="Completa la frase in segreto: le risposte uguali fanno punti. 2–8 giocatori, gratis nel browser." />
+  <meta property="og:description" content="Completa la frase in segreto: le risposte uguali fanno punti. Regole, mazzi e consigli. 2–8 giocatori, gratis nel browser." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://tavoleero.onrender.com/giochi/sintonia" />
   <meta property="og:locale" content="it_IT" />
   <meta name="twitter:card" content="summary" />
   <style>
     body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; max-width: 680px; margin: 0 auto; padding: 32px 20px 64px; line-height: 1.65; }
-    h1 { font-size: 2rem; } .strap { font-size: 1.2rem; color: #555; }
+    h1 { font-size: 2rem; } h2 { margin-top: 2em; } .strap { font-size: 1.2rem; color: #555; }
     .meta { display: inline-block; background: #f4f1ea; border-radius: 999px; padding: 6px 14px; font-size: .9rem; margin: 8px 0 24px; }
-    .cta { display: inline-block; background: #f1c64b; color: #172c2a; font-weight: 700; padding: 14px 28px; border-radius: 12px; text-decoration: none; margin-top: 16px; }
-    ol li { margin-bottom: .6em; } footer { margin-top: 3em; font-size: .9rem; color: #666; } a { color: #0b817a; }
+    .cta { display: inline-block; background: #e84a37; color: #fff; font-weight: 700; padding: 14px 28px; border-radius: 12px; text-decoration: none; margin-top: 16px; }
+    .adslot { border: 1px dashed #bbb; border-radius: 12px; padding: 28px 16px; text-align: center; color: #888; font-size: .9rem; margin: 2em 0; }
+    ol li, ul li { margin-bottom: .6em; } footer { margin-top: 3em; font-size: .9rem; color: #666; } a { color: #0b817a; }
+    .example { background: #f8f6f1; border-left: 4px solid #e84a37; padding: 12px 16px; border-radius: 0 12px 12px 0; margin: 1em 0; }
   </style>
 </head>
 <body>
@@ -26,14 +28,47 @@
   <h1>Sintonia</h1>
   <p><strong>Stessa parola. Stessa testa.</strong></p>
   <p class="meta">2–8 giocatori · circa 10 minuti · un solo telefono</p>
-  <p>Completa la frase in segreto: ognuno scrive la parola mancante senza farsi vedere. Le risposte uguali fanno punti — vince chi è più in sintonia con gli altri. Con traguardo punti configurabile.</p>
-  <h2>Come si gioca</h2>
+
+  <p>Sintonia è il gioco dell'affinità mentale: a turno appare una frase con una parola mancante, ognuno scrive in segreto la parola che gli viene in mente per completarla e poi si rivelano tutte insieme. Più la tua risposta somiglia a quelle degli altri, più punti fai. Non ci sono risposte giuste o sbagliate: vince chi conosce meglio la testa degli amici. È il gioco perfetto per conoscersi davvero — o per scoprire di non conoscersi affatto.</p>
+
+  <h2>Come si gioca, passo passo</h2>
   <ol>
-    <li>Leggi la frase con la parola mancante.</li>
-    <li>Ognuno scrive in segreto la propria risposta.</li>
-    <li>Si rivelano insieme: ogni risposta uguale a quella di un altro giocatore vale punti.</li>
-    <li>Si gioca fino al traguardo (25 punti di default).</li>
+    <li><strong>La frase.</strong> Appare una frase con una parola mancante, pescata da uno dei 12 mazzi tematici (dalla vita quotidiana ai ricordi, dalle abitudini ai sogni).</li>
+    <li><strong>La risposta segreta.</strong> Ognuno scrive la prima parola che gli viene in mente per completarla, senza farsi vedere dagli altri. Niente ripensamenti: vale l'istinto.</li>
+    <li><strong>La rivelazione.</strong> Si scoprono tutte le risposte insieme.</li>
+    <li><strong>I punti.</strong> Ogni risposta uguale a quella di un altro giocatore vale punti secondo lo schema 3/1/0: 3 punti se la tua parola è uguale a quella di almeno due altri giocatori, 1 punto se è uguale a quella di uno solo, 0 se sei l'unico ad averla pensata.</li>
+    <li><strong>Il traguardo.</strong> Si gioca fino a 25 punti (configurabile): chi arriva prima vince.</li>
   </ol>
+
+  <div class="example"><strong>Esempio:</strong> la frase è "La domenica mattina perfetta inizia con ___". Tu scrivi "cornetto", due amici scrivono "cornetto", un altro scrive "letto". Tu e i due amici prendete 3 punti a testa, l'amico del "letto" prende 0. Morale: per vincere bisogna pensare come il gruppo, non come sé stessi.</div>
+
+  <h2>I 12 mazzi tematici</h2>
+  <p>Le frasi sono organizzate in 12 mazzi da oltre 160 frasi in totale, che spaziano tra abitudini quotidiane, cibo, viaggi, ricordi d'infanzia, lavoro, sogni e piccole ossessioni. I mazzi si ampliano nel tempo e puoi aggiornarli manualmente dal gioco. La varietà dei temi è ciò che tiene vivo il gioco sera dopo sera: ogni gruppo trova i suoi terreni di scontro (e scopre altarini insospettabili).</p>
+
+  <div class="adslot">Spazio pubblicitario</div>
+
+  <h2>Perché funziona: il gioco come ice-breaker</h2>
+  <p>Sintonia è il miglior rompighiaccio del catalogo Tavoleero, per un motivo semplice: non chiede abilità, chiede di conoscersi. Le risposte rivelano abitudini, gusti e modi di pensare — "chi l'avrebbe mai detto che anche tu…" è la frase più pronunciata durante una partita. Funziona benissimo con gruppi misti dove non tutti si conoscono, con le coppie (sfida nella sfida: indovinare la risposta del partner) e come primo gioco della serata prima di passare a quelli più competitivi.</p>
+
+  <h2>Consigli per la serata</h2>
+  <ul>
+    <li><strong>Pensa come il gruppo, non come te.</strong> La strategia vincente non è la risposta più originale, ma quella più probabile nella testa degli altri.</li>
+    <li><strong>Niente secondi pensieri.</strong> La prima parola che ti viene in mente è quasi sempre quella giusta: è anche quella che verrà in mente agli altri.</li>
+    <li><strong>Il traguardo si regola:</strong> 25 punti è lo standard per una serata, ma con poco tempo abbassalo a 15 e il gioco resta godibilissimo.</li>
+    <li><strong>Leggete le risposte ad alta voce</strong> alla rivelazione: metà del divertimento è sentire le motivazioni assurde dietro ogni parola.</li>
+  </ul>
+
+  <h2>Multiplayer: scrittura segreta in simultanea</h2>
+  <p>Nel multiplayer ognuno entra nella stanza con il codice a 6 cifre e scrive la propria risposta in segreto sul proprio telefono, in simultanea con gli altri. La rivelazione scatta quando tutti hanno risposto (o quando l'host decide di forzarla). Il punteggio 3/1/0 resta identico alla versione da un solo telefono.</p>
+
+  <h2>Domande frequenti</h2>
+  <p><strong>È gratis?</strong> Sì, completamente gratuito nel browser, senza download.</p>
+  <p><strong>Da quanti giocatori?</strong> Da 2 a 8. In 2 è una sfida di coppia, da 4 in su diventa un vero test di affinità di gruppo.</p>
+  <p><strong>Ci sono risposte giuste?</strong> No: non esistono risposte corrette, conta solo quante persone hanno scritto la tua stessa parola.</p>
+  <p><strong>Come funziona il punteggio 3/1/0?</strong> 3 punti se almeno altri due giocatori hanno la tua stessa parola, 1 punto se ce l'ha uno solo, 0 se sei l'unico.</p>
+  <p><strong>Quanto dura una partita?</strong> Circa 10 minuti per arrivare a 25 punti; il traguardo è configurabile.</p>
+  <p><strong>Serve registrarsi?</strong> No, si gioca subito. La registrazione serve solo per salvare partite e preferenze.</p>
+
   <a class="cta" href="/?gioco=sintonia">Gioca gratis ora</a>
   <footer><p><a href="/">Tavoleero</a> · <a href="/privacy">Privacy</a></p></footer>
 </body>
