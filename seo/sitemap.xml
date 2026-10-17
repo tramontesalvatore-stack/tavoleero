@@ -8,19 +8,19 @@
   </url>
   <url>
     <loc>https://tavoleero.onrender.com/giochi/scribble-scratch</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tavoleero.onrender.com/giochi/parole-in-fuga</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tavoleero.onrender.com/giochi/sintonia</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -29,5 +29,29 @@
     <lastmod>2026-10-04</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://tavoleero.onrender.com/guide/guida-serata-giochi</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tavoleero.onrender.com/guide/idee-festa-amici</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tavoleero.onrender.com/guide/giochi-senza-tabellone</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tavoleero.onrender.com/guide/party-game-team-building</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
