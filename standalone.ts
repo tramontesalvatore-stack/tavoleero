@@ -189,6 +189,12 @@ Bun.serve({
         return serveSeoFile("google0d537adf2bb076bc.html", "text/html; charset=utf-8");
       if (url.pathname === "/privacy")
         return serveSeoFile("privacy.html", "text/html; charset=utf-8");
+      if (url.pathname === "/chi-siamo")
+        return serveSeoFile("chi-siamo.html", "text/html; charset=utf-8");
+      if (url.pathname === "/contatti")
+        return serveSeoFile("contatti.html", "text/html; charset=utf-8");
+      if (url.pathname === "/guide" || url.pathname === "/guide/")
+        return serveSeoFile("guide/index.html", "text/html; charset=utf-8");
       const gameMatch = /^\/giochi\/([a-z-]+)\/?$/.exec(url.pathname);
       if (gameMatch) {
         const page = GAME_PAGES[gameMatch[1]];
